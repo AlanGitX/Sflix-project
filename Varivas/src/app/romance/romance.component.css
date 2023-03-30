@@ -1,0 +1,31 @@
+
+.row{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.single{
+    height: 300px;
+    width: 280px;
+
+}
+.single img{
+    height: 300px;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.Main{
+margin: 30px;
+}
+
+.movie-img{
+    transition: transform 450ms;
+
+}
+.movie-img:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,23 @@
+.main-sec img{
+	opacity: 0.1;
+
+
+}
+
+.sec{
+	object-fit: contain;
+	top: 50;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.sec::after{
+	opacity: 0.25;
+
+}
+
+.Main img{
+	height: 250px;
+}
